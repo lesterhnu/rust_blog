@@ -1,2 +1,3 @@
-# rust_blog
-a blog by rust 
+sea-orm test demo
+
+uncompleted
