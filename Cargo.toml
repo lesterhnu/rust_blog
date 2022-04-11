@@ -7,4 +7,12 @@ edition = "2021"
 
 [dependencies]
 # 引入sea-orm依赖，features添加 sqlx-mysql,runtime-tokio-native-tls,macros;
+
+
+
 sea-orm = {version = "0.7.1", features = ["sqlx-mysql","runtime-tokio-native-tls","macros"]}
+
+
+
+
+migration = {path = "migration"}
