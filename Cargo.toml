@@ -1,0 +1,10 @@
+[package]
+name = "seaormdemo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 引入sea-orm依赖，features添加 sqlx-mysql,runtime-tokio-native-tls,macros;
+sea-orm = {version = "0.7.1", features = ["sqlx-mysql","runtime-tokio-native-tls","macros"]}
