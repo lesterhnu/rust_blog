@@ -1,3 +1,4 @@
+use migration;
 fn main(){
     
 }
